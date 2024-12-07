@@ -1,61 +1,82 @@
-.main-containerP{
-    height: 6233px;
+.Landing-page{
     width: 1440px;
-    top: -2488px;
-    left: 309px;
+    height: 6233px;
     padding: 0px 48px;
     background-color: #FFFFFF;
 }
 
-.header-container{
-    width: 1344px;
-    height: 96px;
-    padding-top: 24px;
-    gap: 8px;
-    background-color: #FFFFFF;
-}
-
-.body-container{
-    width: 1344px;
-    height: 5713px;
-    padding: 48px 0px;
-}
-
-.footer{
-    width: 1344px;
-    height: 424px;
-    border-bottom: 1px;
-    padding: 96px 0px;
-    gap: 48px;
-    background-color: #FFFFFF;
-}
-
-.header-container .container{
-    width: 1080px;
-    height: 72px;
-    border-radius: 16px;
-    border: 1px;
-    justify-content: space-between;
-    padding: 24px 32px;
+.header-content{
     background-color: #2419F30F;
-    box-shadow: #00000029;
+    width: 1440px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 12px;
+
 }
 
-.pagelinks label{
-    width: 48px;
-    height: 24px;
-    font-size: 17px;
-    line-height: 24px;
-    margin: 6px;
+.header-content span{
+    margin: 10px;
     color: #000000;
+    font-weight: bold;
+    line-height: 3;
+    font-size: 17px;
+    padding: 2px;
+}
+
+.header-content span:hover{
+    cursor: pointer;
+    border: 1px solid rgb(77, 1, 1);
+}
+
+#logo{
+    margin-left: 400px;
+    font-size: 42px;
+    line-height: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#logo:hover{
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 #contact{
-    margin-left: 1000px;
-    width: 48px;
-    height: 24px;
-    font-size: 17px;
-    line-height: 24px;
-    color: #000000;
+    margin-left: 500px;
+}
 
+.main-body{
+    line-height: 1;
+    font-size: 60px;
+    text-align: center;
+}
+
+.main-body h1{
+    border: 2px solid black;
+}
+
+.main-body-image img{
+    width: 1344px;
+    height: 672px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.personal-agency{
+    width: 1344px;
+    height: 1191px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.personal-agency .photos{
+    width: 1344px;
+    height: 429px;
+    margin-left: 45px;
+}
+
+.personal-agency .photos img{
+    width: 416px;
+    height: 277px;
+    margin: 2px;
 }
